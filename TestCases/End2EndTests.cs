@@ -10,7 +10,7 @@ namespace SwagLabs.TestCases
     {
         public IWebDriver driver = new ChromeDriver();
         [SetUp]
-        public void Initialize()
+        public void Initialise()
         {
             driver.Manage().Cookies.DeleteAllCookies();
             driver.Navigate().GoToUrl("https://www.saucedemo.com/");
