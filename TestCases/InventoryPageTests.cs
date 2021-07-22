@@ -101,22 +101,5 @@ namespace SwagLabs.TestCases
             Assert.AreEqual("Cross Browser Testing, Selenium Testing, Mobile Testing | Sauce Labs", driver.Title);
         }
 
-        public void ArrangeItemNamesbyAtoZ()
-        {
-            var login = new LogInPage(driver);
-            var inv = login.LogIn("standard_user", "secret_sauce");
-            inv.SortItemsDDL("NAME (A TO Z)");
-            //IComparer g = new comparer();
-            //string[] arr1 = inv.GetAllItemText();
-            //string[] arr2 = Array.Sort(arr1, 0, 5, g);
-            //Console.WriteLine(arr1);
-            //Assert.AreEqual();
-        }
-
-        [TearDown]
-        public void EndTest()
-        {
-            driver.Quit();
-        }
     }
 }

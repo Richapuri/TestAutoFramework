@@ -42,12 +42,5 @@ namespace SwagLabs.TestCases
             Assert.IsNotEmpty(checkoutcompletepg.ThankYouHeadingMessage());
         }
 
-        [TearDown]
-        public void EndTest()
-        {
-            driver.Quit();
-        }
-
-
     }
 }

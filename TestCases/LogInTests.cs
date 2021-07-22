@@ -55,11 +55,5 @@ namespace SwagLabs.TestCases
             Thread.Sleep(1000);
             Assert.AreEqual(login.LoginErrorMessage.Text, "Epic sadface: Username and password do not match any user in this service");
         }
-
-        [TearDown]
-        public void EndTest()
-        {
-            driver.Quit();
-        }
     }
 }
