@@ -1,0 +1,21 @@
+This is code for a test automation framework that I have designed and developed using C#, Selenium and Nunit framework. The C# pattern I have used is page object modelling (also called as POM).
+The application under test is Swaglabs. The link for the web application can be found below:
+https://www.saucedemo.com/
+Please note I have created few functional test cases and automated them using C#, Selenium and Nunit framework. 
+Test cases can be categoried into 3 categories. Login test cases, Inventory Page test cases and End to End test cases.
+Test cases are as follows:
+Login Test cases:
+Test Case 1. Log into the application with correct user name and password.
+Test case 2. Log into the application with incorrect user name and correct password.
+Test case 3. Log into the application with correct user name and incorrect password.
+Test case 4 Log into the application with incorrect user name and incorrect password.
+Inventory page test cases:
+Test case 5. Print all the items in the inventory page. This will list all items as logs.
+Test case 6. Print an item (first item) in the inventory page.
+Test case 7. Print an item from item name.
+Test case 8. Print an item price from item name.
+Test case 9. Click on Add to cart button for a specific item.
+Test case 10. Log out of the application.
+Test case 11. Navigate to About page of the application.
+End to End test case
+Test case 12. This is an end to end test case where a full flow of buying an item is automated.
